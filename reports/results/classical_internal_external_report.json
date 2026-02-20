@@ -1,0 +1,160 @@
+{
+  "use_downsample": false,
+  "downsample_factor": null,
+  "internal": {
+    "logistic_pca95": {
+      "threshold": 0.5,
+      "acc": 0.7683884297520661,
+      "prec": 0.6874745002039984,
+      "rec": 0.8259803921568627,
+      "f1": 0.7503896682253396,
+      "auc": 0.8388424369747899,
+      "confusion_matrix": [
+        [
+          2034,
+          766
+        ],
+        [
+          355,
+          1685
+        ]
+      ]
+    },
+    "rf_pca95": {
+      "threshold": 0.5,
+      "acc": 0.9241735537190082,
+      "prec": 0.9265680775114737,
+      "rec": 0.890686274509804,
+      "f1": 0.9082729317670583,
+      "auc": 0.9827946428571428,
+      "confusion_matrix": [
+        [
+          2656,
+          144
+        ],
+        [
+          223,
+          1817
+        ]
+      ]
+    }
+  },
+  "external": {
+    "logistic_pca95": {
+      "threshold": 0.5,
+      "acc": 0.513953488372093,
+      "prec": 0.466629485034393,
+      "rec": 0.6228287841191067,
+      "f1": 0.5335317249442023,
+      "auc": 0.5191279404466501,
+      "confusion_matrix": [
+        [
+          2131,
+          2869
+        ],
+        [
+          1520,
+          2510
+        ]
+      ]
+    },
+    "rf_pca95": {
+      "threshold": 0.5,
+      "acc": 0.5846068660022148,
+      "prec": 0.99644128113879,
+      "rec": 0.06947890818858561,
+      "f1": 0.1299002551612155,
+      "auc": 0.820007493796526,
+      "confusion_matrix": [
+        [
+          4999,
+          1
+        ],
+        [
+          3750,
+          280
+        ]
+      ]
+    }
+  },
+  "external_threshold_tuning": {
+    "logistic_best_by_f1": {
+      "thr": 0.05,
+      "acc": 0.44562569213732006,
+      "prec": 0.44563279857397503,
+      "rec": 0.9925558312655087,
+      "f1": 0.6151007227433493,
+      "j": -0.002644168734491137,
+      "cm": [
+        [
+          24,
+          4976
+        ],
+        [
+          30,
+          4000
+        ]
+      ]
+    },
+    "logistic_best_by_youdenJ": {
+      "thr": 0.35,
+      "acc": 0.4993355481727575,
+      "prec": 0.4637852190588582,
+      "rec": 0.7801488833746898,
+      "f1": 0.581737441021371,
+      "j": 0.053148883374689926,
+      "cm": [
+        [
+          1365,
+          3635
+        ],
+        [
+          886,
+          3144
+        ]
+      ]
+    },
+    "rf_best_by_f1": {
+      "thr": 0.3,
+      "acc": 0.7795127353266889,
+      "prec": 0.8151468315301391,
+      "rec": 0.6543424317617866,
+      "f1": 0.7259463179628355,
+      "j": 0.5347424317617866,
+      "cm": [
+        [
+          4402,
+          598
+        ],
+        [
+          1393,
+          2637
+        ]
+      ]
+    },
+    "rf_best_by_youdenJ": {
+      "thr": 0.3,
+      "acc": 0.7795127353266889,
+      "prec": 0.8151468315301391,
+      "rec": 0.6543424317617866,
+      "f1": 0.7259463179628355,
+      "j": 0.5347424317617866,
+      "cm": [
+        [
+          4402,
+          598
+        ],
+        [
+          1393,
+          2637
+        ]
+      ]
+    }
+  },
+  "paths": {
+    "logreg_model": "/Users/subhamsingh/Documents/GitHub/ML_VERTICAL_SUBHAM_ZUBAIR/models/logreg_pca95.joblib",
+    "rf_model": "/Users/subhamsingh/Documents/GitHub/ML_VERTICAL_SUBHAM_ZUBAIR/models/rf_pca95.joblib",
+    "person_csv": "/Users/subhamsingh/Documents/GitHub/ML_VERTICAL_SUBHAM_ZUBAIR/data/external_raw/person_4k.csv",
+    "object_csv": "/Users/subhamsingh/Documents/GitHub/ML_VERTICAL_SUBHAM_ZUBAIR/data/external_raw/object_5k.csv"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "use_downsample": true,
+  "downsample_factor": 10,
+  "use_per_sample_znorm": true,
+  "input_len": 2500,
+  "batch_size": 64,
+  "epochs_requested": 40,
+  "best_val_loss": 0.03996140882372856,
+  "test_metrics": {
+    "loss": 0.032969001680612564,
+    "acc": 0.9884297520661157,
+    "prec": 0.987708947885939,
+    "rec": 0.9848039215686275,
+    "f1": 0.9862542955326461,
+    "auc": 0.9992302170868347
+  },
+  "history_keys": [
+    "acc",
+    "loss",
+    "prec",
+    "rec",
+    "val_acc",
+    "val_loss",
+    "val_prec",
+    "val_rec",
+    "learning_rate"
+  ]
+}

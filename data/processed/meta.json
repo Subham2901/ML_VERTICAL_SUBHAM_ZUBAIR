@@ -1,0 +1,34 @@
+{
+  "waveform_start_col_idx": 17,
+  "X_shape_full": [
+    24198,
+    25000
+  ],
+  "X_train_shape": [
+    19358,
+    25000
+  ],
+  "X_test_shape": [
+    4840,
+    25000
+  ],
+  "class_counts_full": {
+    "0_object": 14000,
+    "1_person": 10198
+  },
+  "source_files_person": [
+    "person_sitting_5000.csv (rows=4198,cols]25000)",
+    "person_standing_signal_4000.csv (rows=4000,cols]25000)",
+    "signal_1000_80cm_Person_sitting.csv.csv (rows=1000,cols]25000)",
+    "signal_1000_90cm_person_sitting.csv.csv (rows=1000,cols]25000)"
+  ],
+  "source_files_object": [
+    "Empty_chair_signal_5000.csv (rows=5000,cols]25000)",
+    "Reflective_surface_on_chair_signal_4000.csv (rows=4000,cols]25000)",
+    "floor_signal_1000.csv (rows=3000,cols]25000)",
+    "signal_1000_125cm_plan_box_surface.csv (rows=1000,cols]25000)",
+    "signal_1000_215cm_Reflected_Object.csv (rows=1000,cols]25000)"
+  ],
+  "dtype": "float32",
+  "note": "Features extracted from column R onward (0-based idx 17)."
+}
